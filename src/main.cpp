@@ -69,7 +69,7 @@ void setup() {
 
 void loop() {
   drive_to(200, 600); // this and following 4 lines of code make the robot draw a star
-  drive_to(0, 400);
+  drive_to(400, 0);
   drive_to(-100, 400);
   drive_to(500, 400);
   drive_to(0,0);

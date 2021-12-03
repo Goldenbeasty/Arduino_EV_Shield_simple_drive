@@ -80,7 +80,7 @@ void setup() {
   evshield.init(SH_HardwareI2C);
   evshield.bank_a.motorReset();
   evshield.bank_b.motorReset();
-  delay(10000);
+  delay(1000);
   myGyro.init( &evshield, SH_BAS1 ); // We tell where th Gyro is connected to
   delay(10000);
   myGyro.setMode(MODE_Gyro_Angle); // set angle mode
